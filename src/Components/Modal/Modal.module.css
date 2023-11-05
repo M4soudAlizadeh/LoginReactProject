@@ -1,0 +1,35 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.671);
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  cursor: pointer;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  z-index: 100;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: white;
+}
+.modal header {
+  background-color: blueviolet;
+  padding: 1rem 1rem;
+  width: 100%;
+}
+.modal p {
+  padding: 1rem 1rem;
+  width: 100%;
+}
+.modal button {
+  margin: 1rem auto;
+}

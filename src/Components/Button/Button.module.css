@@ -1,0 +1,22 @@
+.button {
+  padding: 1rem 2rem;
+  background-color: rgba(82, 25, 136, 0.822);
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgba(82, 25, 136, 0.918);
+}
+.button:active {
+  background-color: rgb(52, 7, 95);
+}
+@media (min-width: 720px) {
+  .button {
+    padding: 1.5rem 4rem;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}

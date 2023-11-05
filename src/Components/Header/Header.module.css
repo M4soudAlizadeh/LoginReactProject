@@ -1,0 +1,14 @@
+.head {
+  background-color: rgb(189, 22, 211);
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.head div {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  flex: 0.7;
+}
